@@ -1,0 +1,15 @@
+.button {
+  background-color: var(--color-white);
+  color: var(--color-secondary);
+  border: none;
+  border-radius: var(--radius-sm);
+  padding: 16px 32px;
+  font-size: var(--text-md);
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+}
